@@ -11,7 +11,7 @@
 <header>
     <div class="logo">FLIX TV</div>
 
-    <input type="text" id="searchInput" placeholder="Ara...">
+    <input type="text" id="searchInput" placeholder="Film veya dizi ara...">
 
     <nav>
         <a href="index.html">Ana Sayfa</a>
@@ -21,27 +21,50 @@
 </header>
 
 <section class="hero">
-    <h1>FLIX TV</h1>
-    <p>Film ve dizileri keşfet.</p>
+    <h1>Premium Film ve Dizi Platformu</h1>
+    <p>En popüler içerikleri keşfet ve izlemeye başla.</p>
+
+    <div class="hero-buttons">
+        <button class="btn btn-primary">İzlemeye Başla</button>
+        <button class="btn btn-secondary">Detaylar</button>
+    </div>
 </section>
 
 <section class="content">
-    <h2>Popüler İçerikler</h2>
+
+    <h2 class="section-title">Trend İçerikler</h2>
 
     <div class="grid">
 
         <div class="card">
             <img src="https://via.placeholder.com/300x450">
-            <h3>Film 1</h3>
+            <div class="card-content">
+                <h3>Film Adı</h3>
+                <p>Aksiyon • 2026</p>
+            </div>
         </div>
 
         <div class="card">
             <img src="https://via.placeholder.com/300x450">
-            <h3>Dizi 1</h3>
+            <div class="card-content">
+                <h3>Dizi Adı</h3>
+                <p>Dram • 2026</p>
+            </div>
         </div>
 
     </div>
+
 </section>
+
+<footer>
+© 2026 FLIX TV
+</footer>
+
+<div class="bottom-nav">
+    <a class="active" href="index.html">🏠<br>Ana Sayfa</a>
+    <a href="movies.html">🎬<br>Filmler</a>
+    <a href="series.html">📺<br>Diziler</a>
+</div>
 
 <script src="js/app.js"></script>
 </body>
