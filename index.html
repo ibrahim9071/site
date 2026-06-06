@@ -4,68 +4,59 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FLIX TV</title>
+
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/home.css">
 </head>
 <body>
 
-<header>
+<header class="header">
     <div class="logo">FLIX TV</div>
 
-    <input type="text" id="searchInput" placeholder="Film veya dizi ara...">
-
-    <nav>
+    <nav class="nav">
         <a href="index.html">Ana Sayfa</a>
         <a href="movies.html">Filmler</a>
         <a href="series.html">Diziler</a>
     </nav>
+
+    <div class="actions">
+        <input type="text" placeholder="Ara...">
+    </div>
 </header>
 
 <section class="hero">
-    <h1>Premium Film ve Dizi Platformu</h1>
-    <p>En popüler içerikleri keşfet ve izlemeye başla.</p>
+    <div class="overlay"></div>
 
-    <div class="hero-buttons">
-        <button class="btn btn-primary">İzlemeye Başla</button>
-        <button class="btn btn-secondary">Detaylar</button>
+    <div class="hero-content">
+        <h1>Öne Çıkan Film</h1>
+        <p>En yeni film ve dizileri keşfet.</p>
+
+        <button>İzle</button>
+        <button>Detaylar</button>
     </div>
 </section>
 
-<section class="content">
+<section class="section">
+    <h2>Trend Filmler</h2>
 
-    <h2 class="section-title">Trend İçerikler</h2>
+    <div class="movie-row">
 
-    <div class="grid">
-
-        <div class="card">
+        <div class="movie-card">
             <img src="https://via.placeholder.com/300x450">
-            <div class="card-content">
-                <h3>Film Adı</h3>
-                <p>Aksiyon • 2026</p>
-            </div>
         </div>
 
-        <div class="card">
+        <div class="movie-card">
             <img src="https://via.placeholder.com/300x450">
-            <div class="card-content">
-                <h3>Dizi Adı</h3>
-                <p>Dram • 2026</p>
-            </div>
+        </div>
+
+        <div class="movie-card">
+            <img src="https://via.placeholder.com/300x450">
         </div>
 
     </div>
-
 </section>
-
-<footer>
-© 2026 FLIX TV
-</footer>
-
-<div class="bottom-nav">
-    <a class="active" href="index.html">🏠<br>Ana Sayfa</a>
-    <a href="movies.html">🎬<br>Filmler</a>
-    <a href="series.html">📺<br>Diziler</a>
-</div>
 
 <script src="js/app.js"></script>
+
 </body>
 </html>
